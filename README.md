@@ -132,9 +132,18 @@ python eval_q2ar.py -answer_preds model/saves/flagship_answer/valpreds.npy -rati
 |   |--Resnet50_imagnet.py
 |   |--torch_resnet50.pkl
 |--train.py
-|--eval_q2ar.py
+|--eval.py  #进行Q→ A和QA → R的测试
+|--eval_q2ar.py  #进行Q → AR的测试
 |--config.py
 ```
 
 模型训练的所有参数信息都在config.py中进行了详细的注释.
+# 七、模型信息：
 
+| 信息     | 说明        |
+| -------- | ----------- |
+| 发布者   | KiritoSSR   |
+| 时间     | 2021.12     |
+| 框架版本 | Paddle2.2.1 |
+| 应用场景 | 多模态      |
+| 支持硬件 | GPU、CPU    |
